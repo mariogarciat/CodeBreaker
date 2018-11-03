@@ -21,7 +21,7 @@ class CodeBreakerTest extends FunSuite {
     val result = CodeBreaker.codeBreaker(value)
     assert(result == "_")
     val result2 = CodeBreaker.codeBreaker2(value)
-    assert(result2 == "_")
+    assert(result2 == "_X")
   }
 
   test("1234 con resultado X_") {
